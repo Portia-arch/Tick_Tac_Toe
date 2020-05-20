@@ -1,0 +1,53 @@
+.background {
+    background: aquamarine;
+}
+
+.center {
+    text-align: center;
+    font-style: italic;
+}
+
+.container {
+    display: grid;
+    grid-gap: auto;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.boxInfo {
+    background-color: rgb(43, 1, 51);
+    color: white;
+    padding: 20px;
+}
+
+.gameContainer {
+ display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  background-color: azure;
+  border: 3px solid rgba(162, 0, 255, 0.459);
+  text-align: center;
+}
+
+.gameContainer > div {
+    border: 2px solid rgba(162, 0, 255, 0.459);
+    background-color: lightgray;
+    color: white;
+    padding: 35px;
+}
+
+.item {
+
+}
+
+/* #reset {
+    background-color: rgba(162, 0, 255, 0.459);
+} */
+
+#myTurn {
+
+}
+
+#compTurn {
+
+}
